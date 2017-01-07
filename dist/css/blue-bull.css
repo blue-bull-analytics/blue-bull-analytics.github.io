@@ -36,6 +36,11 @@ body {
 .page-header {
   text-align: center;
 }
+.btn-primary:hover {
+    color: #D7E1EB;
+    background-color: #2E3373;
+    border-color: #204d74;
+}
 .navbar-top-links {
   margin-right: 0;
 }
@@ -445,4 +450,7 @@ table.dataTable thead .sorting:after {
     border-right-width: 14px;
     border-left-width: 0;
   }
+}
+.btn-primary {
+  color: #0268A6;
 }
