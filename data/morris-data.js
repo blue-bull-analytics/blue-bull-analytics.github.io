@@ -3,59 +3,54 @@ $(function() {
     Morris.Area({
         element: 'morris-area-chart',
         data: [{
-            period: '2010 Q1',
-            iphone: 2666,
-            ipad: null,
-            itouch: 2647
+            period: '2016/05',
+            Total: 1000,
+            Male: 800,
+            Female: 200
         }, {
-            period: '2010 Q2',
-            iphone: 2778,
-            ipad: 2294,
-            itouch: 2441
+            period: '2016/06',
+            Total: 2500,
+            Male: 2000,
+            Female: 500
         }, {
-            period: '2010 Q3',
-            iphone: 4912,
-            ipad: 1969,
-            itouch: 2501
+            period: '2016/07',
+            Total: 3500,
+            Male: 2800,
+            Female: 700
         }, {
-            period: '2010 Q4',
-            iphone: 3767,
-            ipad: 3597,
-            itouch: 5689
+            period: '2016/08',
+            Total: 4600,
+            Male: 3700,
+            Female: 900
         }, {
-            period: '2011 Q1',
-            iphone: 6810,
-            ipad: 1914,
-            itouch: 2293
+            period: '2016/09',
+            Total: 5000,
+            Male: 3800,
+            Female: 1200
         }, {
-            period: '2011 Q2',
-            iphone: 5670,
-            ipad: 4293,
-            itouch: 1881
+            period: '2016/10',
+            Total: 6700,
+            Male: 4800,
+            Female: 1900
         }, {
-            period: '2011 Q3',
-            iphone: 4820,
-            ipad: 3795,
-            itouch: 1588
+            period: '2016/11',
+            Total: 8000,
+            Male: 5500,
+            Female: 2500
         }, {
-            period: '2011 Q4',
-            iphone: 15073,
-            ipad: 5967,
-            itouch: 5175
+            period: '2016/12',
+            Total: 10500,
+            Male: 7250,
+            Female: 3250
         }, {
-            period: '2012 Q1',
-            iphone: 10687,
-            ipad: 4460,
-            itouch: 2028
-        }, {
-            period: '2012 Q2',
-            iphone: 8432,
-            ipad: 5713,
-            itouch: 1791
+            period: '2017/01',
+            Total: 12000,
+            Male: 8300,
+            Female: 3700
         }],
         xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
+        ykeys: ['Total', 'Male', 'Female'],
+        labels: ['Total', 'Male', 'Female'],
         pointSize: 2,
         hideHover: 'auto',
         resize: true
