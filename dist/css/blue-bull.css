@@ -1,5 +1,5 @@
 body {
-  background-color: #f8f8f8;
+  background-color: #eff1f2;
 }
 #wrapper {
   width: 100%;
@@ -7,7 +7,7 @@ body {
 #page-wrapper {
   padding: 0 15px;
   min-height: 568px;
-  background-color: white;
+  background-color: #eff1f2;
 }
 @media (min-width: 768px) {
   #page-wrapper {
@@ -16,6 +16,25 @@ body {
     padding: 0 30px;
     border-left: 1px solid #e7e7e7;
   }
+}
+.navbar {
+  background-color: #2E3373;
+}
+#header-logo {
+  width: 79px;
+  height: 30px;
+}
+#navbar-title {
+  color: #D7E1EB;
+}
+#navbar-title:hover {
+  color: #0268A6;
+}
+.fa{
+  color: #D7E1EB;
+}
+.page-header {
+  text-align: center;
 }
 .navbar-top-links {
   margin-right: 0;

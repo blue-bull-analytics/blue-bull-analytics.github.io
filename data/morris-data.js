@@ -3,47 +3,47 @@ $(function() {
     Morris.Area({
         element: 'morris-area-chart',
         data: [{
-            period: '2016/05',
+            period: '2016-05',
             Total: 1000,
             Male: 800,
             Female: 200
         }, {
-            period: '2016/06',
+            period: '2016-06',
             Total: 2500,
             Male: 2000,
             Female: 500
         }, {
-            period: '2016/07',
+            period: '2016-07',
             Total: 3500,
             Male: 2800,
             Female: 700
         }, {
-            period: '2016/08',
+            period: '2016-08',
             Total: 4600,
             Male: 3700,
             Female: 900
         }, {
-            period: '2016/09',
+            period: '2016-09',
             Total: 5000,
             Male: 3800,
             Female: 1200
         }, {
-            period: '2016/10',
+            period: '2016-10',
             Total: 6700,
             Male: 4800,
             Female: 1900
         }, {
-            period: '2016/11',
+            period: '2016-11',
             Total: 8000,
             Male: 5500,
             Female: 2500
         }, {
-            period: '2016/12',
+            period: '2016-12',
             Total: 10500,
             Male: 7250,
             Female: 3250
         }, {
-            period: '2017/01',
+            period: '2017-01',
             Total: 12000,
             Male: 8300,
             Female: 3700
