@@ -455,3 +455,30 @@ table.dataTable thead .sorting:after {
 .btn-primary {
   color: #0268A6;
 }
+.panel-heading {
+  text-align: center;
+  font-size: 18px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: #0268A6;
+}
+.panel-primary>.panel-heading {
+  color: #fff;
+  background-color: #2e3373;
+  border-color: #2e3373;
+}
+.panel-yellow > .panel-heading {
+  border-color: #f15722;
+  color: white;
+  background-color: #f15722;
+}
+.panel-red > .panel-heading {
+  border-color: #a52026;
+  color: white;
+  background-color: #a52026;
+}
+.panel-green > .panel-heading {
+    border-color: #0268A6;
+    color: white;
+    background-color: #0268a6;
+}
