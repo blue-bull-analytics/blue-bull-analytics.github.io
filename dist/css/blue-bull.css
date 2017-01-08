@@ -521,3 +521,12 @@ table.dataTable thead .sorting:after {
 .jumbotron > h1, .jumbotron > p {
   color: #D7E1EB;
 }
+.banner2 {
+  background-image: url("../images/Lynx-banner.png");
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+.banner2 > p, .banner2 > h1 {
+  text-align: right;
+  color: #2E3373;
+}
