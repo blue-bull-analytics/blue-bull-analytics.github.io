@@ -454,6 +454,7 @@ table.dataTable thead .sorting:after {
 }
 .btn-primary {
   color: #0268A6;
+  border-color: #2e3373;
 }
 .panel-heading {
   text-align: center;
@@ -478,7 +479,16 @@ table.dataTable thead .sorting:after {
   background-color: #a52026;
 }
 .panel-green > .panel-heading {
-    border-color: #0268A6;
-    color: white;
-    background-color: #0268a6;
+  border-color: #0268A6;
+  color: white;
+  background-color: #0268a6;
+}
+.panel-green {
+  border-color: #0268A6;
+}
+.panel-green > a {
+  color: #0268A6;
+}
+.panel-green > a:hover {
+  color: #023757;
 }
