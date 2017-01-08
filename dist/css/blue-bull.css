@@ -462,6 +462,7 @@ table.dataTable thead .sorting:after {
 }
 .nav>li>a:focus, .nav>li>a:hover {
   background-color: #0268A6;
+  color: white;
 }
 .panel-primary>.panel-heading {
   color: #fff;
@@ -491,4 +492,32 @@ table.dataTable thead .sorting:after {
 }
 .panel-green > a:hover {
   color: #023757;
+}
+.hero-spacer {
+  margin-top: 50px;
+}
+.hero-feature {
+  margin-bottom: 30px;
+}
+.jumbotron {
+  padding-right: 60px;
+  padding-left: 60px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
+.noMargin {
+  margin: 0;
+}
+.alignToCenter {
+  text-align: center;
+}
+.banner {
+  background-image: url("../images/Rekkles-banner.png");
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+.jumbotron > h1, .jumbotron > p {
+  color: #D7E1EB;
 }
