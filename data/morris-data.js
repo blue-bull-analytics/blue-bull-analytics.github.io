@@ -1,56 +1,56 @@
 $(function() {
 
-    Morris.Area({
+    Morris.Line({
         element: 'morris-area-chart',
         data: [{
             period: '2016-05',
-            Total: 1000,
-            Male: 800,
-            Female: 200
+            a: 1000,
+            b: 800,
+            c: 200
         }, {
             period: '2016-06',
-            Total: 2500,
-            Male: 2000,
-            Female: 500
+            a: 2500,
+            b: 2000,
+            c: 500
         }, {
             period: '2016-07',
-            Total: 3500,
-            Male: 2800,
-            Female: 700
+            a: 3500,
+            b: 2800,
+            c: 700
         }, {
             period: '2016-08',
-            Total: 4600,
-            Male: 3700,
-            Female: 900
+            a: 4600,
+            b: 3700,
+            c: 900
         }, {
             period: '2016-09',
-            Total: 5000,
-            Male: 3800,
-            Female: 1200
+            a: 5000,
+            b: 3800,
+            c: 1200
         }, {
             period: '2016-10',
-            Total: 6700,
-            Male: 4800,
-            Female: 1900
+            a: 6700,
+            b: 4800,
+            c: 1900
         }, {
             period: '2016-11',
-            Total: 8000,
-            Male: 5500,
-            Female: 2500
+            a: 8000,
+            b: 5500,
+            c: 2500
         }, {
             period: '2016-12',
-            Total: 10500,
-            Male: 7250,
-            Female: 3250
+            a: 10500,
+            b: 7250,
+            c: 3250
         }, {
             period: '2017-01',
-            Total: 12000,
-            Male: 8300,
-            Female: 3700
+            a: 12000,
+            b: 8300,
+            c: 3700
         }],
         xkey: 'period',
-        ykeys: ['Total', 'Male', 'Female'],
-        labels: ['Total', 'Male', 'Female'],
+        ykeys: ['a', 'b', 'c'],
+        labels: ['Total', 'Turn You Into Angel', 'Take Some Wings'],
         pointSize: 2,
         hideHover: 'auto',
         resize: true
